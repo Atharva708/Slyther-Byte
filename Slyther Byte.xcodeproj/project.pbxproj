@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1C6CC2BD2DA761E600F003E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6CC2A72DA761E400F003E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6CC2AE2DA761E400F003E1;
+			remoteInfo = "Slyther Byte";
+		};
+		1C6CC2C72DA761E600F003E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C6CC2A72DA761E400F003E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6CC2AE2DA761E400F003E1;
+			remoteInfo = "Slyther Byte";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C6CC2AF2DA761E400F003E1 /* Slyther Byte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slyther Byte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6CC2BC2DA761E600F003E1 /* Slyther ByteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slyther ByteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6CC2C62DA761E600F003E1 /* Slyther ByteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slyther ByteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1C6CC2B12DA761E400F003E1 /* Slyther Byte */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slyther Byte";
+			sourceTree = "<group>";
+		};
+		1C6CC2BF2DA761E600F003E1 /* Slyther ByteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slyther ByteTests";
+			sourceTree = "<group>";
+		};
+		1C6CC2C92DA761E600F003E1 /* Slyther ByteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Slyther ByteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6CC2AC2DA761E400F003E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2B92DA761E600F003E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2C32DA761E600F003E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6CC2A62DA761E400F003E1 = {
+			isa = PBXGroup;
+			children = (
+				1C6CC2B12DA761E400F003E1 /* Slyther Byte */,
+				1C6CC2BF2DA761E600F003E1 /* Slyther ByteTests */,
+				1C6CC2C92DA761E600F003E1 /* Slyther ByteUITests */,
+				1C6CC2B02DA761E400F003E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6CC2B02DA761E400F003E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6CC2AF2DA761E400F003E1 /* Slyther Byte.app */,
+				1C6CC2BC2DA761E600F003E1 /* Slyther ByteTests.xctest */,
+				1C6CC2C62DA761E600F003E1 /* Slyther ByteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6CC2AE2DA761E400F003E1 /* Slyther Byte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6CC2D02DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther Byte" */;
+			buildPhases = (
+				1C6CC2AB2DA761E400F003E1 /* Sources */,
+				1C6CC2AC2DA761E400F003E1 /* Frameworks */,
+				1C6CC2AD2DA761E400F003E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1C6CC2B12DA761E400F003E1 /* Slyther Byte */,
+			);
+			name = "Slyther Byte";
+			packageProductDependencies = (
+			);
+			productName = "Slyther Byte";
+			productReference = 1C6CC2AF2DA761E400F003E1 /* Slyther Byte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C6CC2BB2DA761E600F003E1 /* Slyther ByteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6CC2D32DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther ByteTests" */;
+			buildPhases = (
+				1C6CC2B82DA761E600F003E1 /* Sources */,
+				1C6CC2B92DA761E600F003E1 /* Frameworks */,
+				1C6CC2BA2DA761E600F003E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6CC2BE2DA761E600F003E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1C6CC2BF2DA761E600F003E1 /* Slyther ByteTests */,
+			);
+			name = "Slyther ByteTests";
+			packageProductDependencies = (
+			);
+			productName = "Slyther ByteTests";
+			productReference = 1C6CC2BC2DA761E600F003E1 /* Slyther ByteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C6CC2C52DA761E600F003E1 /* Slyther ByteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6CC2D62DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther ByteUITests" */;
+			buildPhases = (
+				1C6CC2C22DA761E600F003E1 /* Sources */,
+				1C6CC2C32DA761E600F003E1 /* Frameworks */,
+				1C6CC2C42DA761E600F003E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6CC2C82DA761E600F003E1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1C6CC2C92DA761E600F003E1 /* Slyther ByteUITests */,
+			);
+			name = "Slyther ByteUITests";
+			packageProductDependencies = (
+			);
+			productName = "Slyther ByteUITests";
+			productReference = 1C6CC2C62DA761E600F003E1 /* Slyther ByteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6CC2A72DA761E400F003E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1C6CC2AE2DA761E400F003E1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1C6CC2BB2DA761E600F003E1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1C6CC2AE2DA761E400F003E1;
+					};
+					1C6CC2C52DA761E600F003E1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1C6CC2AE2DA761E400F003E1;
+					};
+				};
+			};
+			buildConfigurationList = 1C6CC2AA2DA761E400F003E1 /* Build configuration list for PBXProject "Slyther Byte" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C6CC2A62DA761E400F003E1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1C6CC2B02DA761E400F003E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6CC2AE2DA761E400F003E1 /* Slyther Byte */,
+				1C6CC2BB2DA761E600F003E1 /* Slyther ByteTests */,
+				1C6CC2C52DA761E600F003E1 /* Slyther ByteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C6CC2AD2DA761E400F003E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2BA2DA761E600F003E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2C42DA761E600F003E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6CC2AB2DA761E400F003E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2B82DA761E600F003E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C6CC2C22DA761E600F003E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C6CC2BE2DA761E600F003E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6CC2AE2DA761E400F003E1 /* Slyther Byte */;
+			targetProxy = 1C6CC2BD2DA761E600F003E1 /* PBXContainerItemProxy */;
+		};
+		1C6CC2C82DA761E600F003E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6CC2AE2DA761E400F003E1 /* Slyther Byte */;
+			targetProxy = 1C6CC2C72DA761E600F003E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C6CC2CE2DA761E600F003E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C6CC2CF2DA761E600F003E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C6CC2D12DA761E600F003E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-Byte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C6CC2D22DA761E600F003E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-Byte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C6CC2D42DA761E600F003E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-ByteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slyther Byte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slyther Byte";
+			};
+			name = Debug;
+		};
+		1C6CC2D52DA761E600F003E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-ByteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slyther Byte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slyther Byte";
+			};
+			name = Release;
+		};
+		1C6CC2D72DA761E600F003E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-ByteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slyther Byte";
+			};
+			name = Debug;
+		};
+		1C6CC2D82DA761E600F003E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JF8BT68CV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "atharva708.Slyther-ByteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slyther Byte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6CC2AA2DA761E400F003E1 /* Build configuration list for PBXProject "Slyther Byte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6CC2CE2DA761E600F003E1 /* Debug */,
+				1C6CC2CF2DA761E600F003E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6CC2D02DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther Byte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6CC2D12DA761E600F003E1 /* Debug */,
+				1C6CC2D22DA761E600F003E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6CC2D32DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther ByteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6CC2D42DA761E600F003E1 /* Debug */,
+				1C6CC2D52DA761E600F003E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6CC2D62DA761E600F003E1 /* Build configuration list for PBXNativeTarget "Slyther ByteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6CC2D72DA761E600F003E1 /* Debug */,
+				1C6CC2D82DA761E600F003E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6CC2A72DA761E400F003E1 /* Project object */;
+}
